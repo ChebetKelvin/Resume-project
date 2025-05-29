@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <nav>
         <ul>
@@ -22,30 +28,96 @@
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Kelvin | Passionate Developer | Master's in Computer Information Systems (26 years old) A highly motivated and detail-oriented developer with a Master's degree in Computer Information Systems. My academic background has provided a comprehensive understanding of [mention 2-3 broad areas, e.g., 'software engineering principles, data management, and system integration']. I possess a strong drive to build efficient, scalable, and user-centric applications, constantly seeking new challenges and opportunities to apply and expand my technical expertise..</p>
+        <div class="image">
+            <img src="https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/486046620_673892925209783_3760385598585090894_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFMw-a7DWuaK_UdbE81W4vtXM9L3zJcZRZcz0vfMlxlFoLhpbBs8zCk5BXe_sleD4vk0i9qZXtU1aycI4IKA9MQ&_nc_ohc=daPURVX_xxUQ7kNvwHPztG2&_nc_oc=AdkuK3QmjWxArRDEd8GxaTjyoxhO8_3DLxSYcNwyF2gMe5WnK3tQXDtnXC-XWl0oBbc&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=CYkjEynT9dikEhFKQ-dGaQ&oh=00_AfLLZUsF3Chsvj1w_X6v11emLs6ISu3E5ObxfLplAYsEjw&oe=683D299B"
+                alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Kelvin | Passionate Developer | Master's in Computer Information Systems (26 years old) A highly
+                motivated
+                and detail-oriented developer with a Master's degree in Computer Information Systems. My academic
+                background
+                has provided a comprehensive understanding of [mention 2-3 broad areas, e.g., 'software engineering
+                principles, data management, and system integration']. I possess a strong drive to build efficient,
+                scalable, and user-centric applications, constantly seeking new challenges and opportunities to apply
+                and
+                expand my technical expertise..</p>
+        </div>
+
     </section>
 
     <section id="work">
         <h2>My Work</h2>
-        <p>Details about your projects and work experience.</p>
-        <ul>
-            <li>
+        <div class="work-grid">
+
+            <div class="work-details">
                 <h3>Project 1:E-commerce Platform Optimization</h3>
-                <p>Contributed to optimizing a large-scale e-commerce platform's backend services. Improved API response times by 15% through query optimization and caching strategies using Node.js and MongoDB. Assisted in the development of new payment gateway integrations, enhancing user checkout experience.</p>
-            </li>
-            <li>
+                <p>Contributed to optimizing a large-scale e-commerce platform's backend services. Improved API response
+                    times by 15% through query optimization and caching strategies using Node.js and MongoDB. Assisted
+                    in the development of new payment gateway integrations, enhancing user checkout experience.</p>
+            </div>
+
+            <div class="work-details">
                 <h3>Project 2:Responsive Dashboard Development</h3>
-                <p>Designed and developed a fully responsive administrative dashboard for a client's analytics application. Implemented interactive charts and data visualizations using React and D3.js, providing clear insights for stakeholders. Ensured cross-browser compatibility and optimized for mobile devices..</p>
-            </li>
-            <li>
+                <p>Designed and developed a fully responsive administrative dashboard for a client's analytics
+                    application. Implemented interactive charts and data visualizations using React and D3.js, providing
+                    clear insights for stakeholders. Ensured cross-browser compatibility and optimized for mobile
+                    devices..</p>
+            </div>
+
+            <div class="work-details">
                 <h3>Project 3:Automated Data Processing Tool</h3>
-                <p> Led the development of an automated tool to streamline data ingestion and processing for large datasets. Designed and implemented robust data validation rules and transformation pipelines in Python. Reduced manual data preparation time by over 50%, demonstrating strong analytical and scripting capabilities..</p>
-            </li>
+                <p> Led the development of an automated tool to streamline data ingestion and processing for large
+                    datasets. Designed and implemented robust data validation rules and transformation pipelines in
+                    Python. Reduced manual data preparation time by over 50%, demonstrating strong analytical and
+                    scripting capabilities..</p>
+            </div>
+        </div>
     </section>
-    <section id="resume">
-        <h2>Resume</h2>
-        <p><a href="https://www.linkedin.com">linkedin</a></p>
+
+    <section id="resume" class="page-section">
+        <h2>My Resume</h2>
+        <div class="resume-section">
+            <h3>Education</h3>
+            <h4>Master of Science in Computer Information Systems</h4>
+            <p>Kenya Methodist University, Kenya | 2021 - 2024</p>
+            <ul>
+                <li>GPA: 3.18/4.0</li>
+                <li>Thesis: "A Framework For optimizing Phamarcy Inventory Management System Using Machine Learning And
+                    Cloud Computing"</li>
+                <li>Published Research Article:"Cloud Enabled Machine Learning: A Framework For optimizing Phamarcy
+                    Inventory Management Systems"</li>
+            </ul>
+        </div>
+
+        <div class="resume-section">
+            <h3>Experience</h3>
+            <h4>Software Developer Intern | Tech Innovations Inc.</h4>
+            <p>Nairobi, Kenya | June 2025 - Present</p>
+            <ul>
+                <li>Developed and optimized backend APIs for a fintech application, improving response times by 20%.
+                </li>
+                <li>Implemented new user authentication features using OAuth 2.0.</li>
+                <li>Collaborated with a team of 5 developers in an Agile Scrum environment.</li>
+            </ul>
+        </div>
+
+        <div class="resume-section">
+            <h3>Skills</h3>
+            <ul class="skills-grid">
+                <li>**Languages:** Python, Java, JavaScript, SQL</li>
+                <li>**Frameworks:** Django, React, Spring Boot, Node.js</li>
+                <li>**Cloud:** AWS (EC2, S3, Lambda), Azure Functions</li>
+                <li>**Databases:** PostgreSQL, MongoDB, Redis</li>
+                <li>**Tools:** Git, Docker, Jenkins, Jira, VS Code</li>
+            </ul>
+        </div>
+
+        <div class="resume-actions">
+            <a href="assets/Kelvin_Developer_Resume.pdf" download="Kelvin_Developer_Resume.pdf"
+                class="btn primary-btn">Download PDF Version</a>
+        </div>
     </section>
     <section id="contact">
         <h2>Contact Me</h2>
@@ -59,11 +131,22 @@
             <button type="submit">Send</button>
         </form>
     </section>
-    <footer>
-        <p>&copy; 2025 Chebet Kelvin. All rights reserved.</p>
-        <p>Follow me on <a href=example.com>Social Media</a></p>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <p>&copy; 2025 Kelvin. Passionate Developer | CIS Graduate.</p>
+        </div>
     </footer>
 
-    
+
 </body>
+
 </html>
